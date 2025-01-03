@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./global.css";
 import Search from "./Search";
-import Toggle from "./toggle.jsx";
+import Toggle from "./Toggle";
 
 const App = () => {
   const [myValue, setMyValue] = React.useState("");
